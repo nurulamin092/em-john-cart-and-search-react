@@ -16,8 +16,7 @@ const Shop = () => {
         // console.log(product);
         const newCart = [...cart, product];
         setCart(newCart);
-        addToDb(product)
-
+        addToDb(product.id)
     }
     return (
         <div className='shop-container'>
